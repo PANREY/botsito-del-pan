@@ -1,0 +1,19 @@
+﻿{
+  "name": "botstio-del-pan",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para gestión de Pancoins",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.4",
+    "whatsapp-web.js": "^1.19.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
